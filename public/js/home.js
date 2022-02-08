@@ -9,7 +9,7 @@ let data = {
 
 document.getElementById("button-logout").addEventListener("click", logout);
 document.getElementById("transactions-button").addEventListener("click", function() {
-    window.location.href = "transaction.html"
+    window.location.href = "transactions.html"
 })
 
 //ADICIONAR LANÇAMENTO

@@ -25,10 +25,12 @@ document.getElementById("login-form").addEventListener("submit", function(e) {
         return;
         }
 
+        
+    }
+
         saveSession(email, checkSession);
 
         window.location.href = "home.html";
-    }
 });
 
 //criar conta
@@ -58,6 +60,7 @@ document.getElementById("create-form").addEventListener("submit", function(e){
     myModal.hide();
 
     alert("Conta criada com sucesso");
+
 });
 
 function checkLogged() {
